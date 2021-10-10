@@ -1,0 +1,584 @@
+.content{
+  background-color: rgba(240, 240, 240, 1);
+  position: absolute;
+  border-radius: 5px;
+  margin-top: 85px;
+  margin-left: 290px;
+  width: 1215px;
+  height: 340px;
+}
+.pacani{
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 360px;
+  height: 240px;
+  background-image: url(resourses/csgo_pacani.png);
+  background-position: center;
+  background-size: cover;
+}
+.content_2{
+  position: absolute;
+  background-color: rgba(240, 240, 240, 1);
+  border-radius: 5px;
+  width: 1215px;
+  height: 270px;
+  margin-left: 290px;
+  margin-top: 445px;
+}
+
+
+.mapMirage{
+  border: 2px solid rgba(178, 178, 178, 1);
+  border-radius: 5px;
+  height: 90%;
+  width: 80%;
+  margin-left: 9%;
+  margin-top: 3%;
+  background-image: url(resourses/maps/mirage_img.jpeg);
+  background-size: 100% 100%;
+  background-position: center;
+  position: absolute;
+  opacity: 0;
+  transition: 1s;
+}
+
+.map_znuk_mir{
+  margin-left: 5px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+  border-bottom: 2px solid rgba(178, 178, 178, 1);
+  background-image: url(https://www.csgonades.com/_next/image?url=%2Fmapicons%2Fmirage.png&w=3840&q=100);
+}
+
+.mapInferno{
+  border-radius: 5px;
+  border: 2px solid rgba(178, 178, 178, 1);
+  height: 90%;
+  width: 80%;
+  margin-left: 9%;
+  margin-top: 3%;
+  opacity: 0;
+  position: absolute;
+  background-image: url(resourses/maps/inferno_img.jpeg);
+  background-size: 100% 100%;
+  background-position: center;
+}
+.map_znuk_inf{
+  margin-left: 5px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+  border-bottom: 2px solid rgba(178, 178, 178, 1);
+  background-image: url(https://www.csgonades.com/_next/image?url=%2Fmapicons%2Finferno.png&w=3840&q=100);
+}
+.mapOver{
+  border-radius: 5px;
+  border: 2px solid rgba(178, 178, 178, 1);
+  height: 90%;
+  width: 80%;
+  margin-left: 9%;
+  margin-top: 3%;
+  background-image: url(resourses/maps/overpass_img.jpeg);
+  background-size: 100% 100%;
+  background-position: center;
+  position: absolute;
+  opacity: 0;
+}
+.map_znuk_over{
+  margin-left: 5px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+  border-bottom: 2px solid rgba(178, 178, 178, 1);
+  background-image: url(https://www.csgonades.com/_next/image?url=%2Fmapicons%2Foverpass.png&w=3840&q=100);
+}
+.mapDust{
+  border-radius: 5px;
+  border: 2px solid rgba(178, 178, 178, 1);
+  height: 90%;
+  width: 80%;
+  margin-left: 9%;
+  margin-top: 3%;
+  background-image: url(resourses/maps/dust2_img.jpeg);
+  background-size: 100% 100%;
+  background-position: center;
+  position: absolute;
+  opacity: 0;
+}
+.map_znuk_dust{
+  margin-left: 5px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+  border-bottom: 2px solid rgba(178, 178, 178, 1);
+  background-image: url(https://www.csgonades.com/_next/image?url=%2Fmapicons%2Fdust2.png&w=3840&q=100);
+}
+.mapVert{
+  border-radius: 5px;
+  border: 2px solid rgba(178, 178, 178, 1);
+  height: 90%;
+  width: 80%;
+  margin-left: 9%;
+  margin-top: 3%;
+  background-image: url(resourses/maps/vertigo_img.jpeg);
+  background-size: 100% 100%;
+  background-position: center;
+  position: absolute;
+  opacity: 0;
+}
+.map_znuk_vert{
+  margin-left: 5px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+  border-bottom: 2px solid rgba(178, 178, 178, 1);
+  background-image: url(https://www.csgonades.com/_next/image?url=%2Fmapicons%2Fvertigo.png&w=3840&q=100);
+}
+.mapNuke{
+  border-radius: 5px;
+  border: 2px solid rgba(178, 178, 178, 1);
+  height: 90%;
+  width: 80%;
+  margin-left: 9%;
+  margin-top: 3%;
+  background-image: url(resourses/maps/nuke_img.jpeg);
+  background-size: 100% 100%;
+  background-position: center;
+  position: absolute;
+  opacity: 0;
+}
+.map_znuk_nuke{
+  margin-left: 5px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+  border-bottom: 2px solid rgba(178, 178, 178, 1);
+  background-image: url(https://www.csgonades.com/_next/image?url=%2Fmapicons%2Fnuke.png&w=3840&q=100);
+}
+.mapAnc{
+  border-radius: 5px;
+  border: 2px solid rgba(178, 178, 178, 1);
+  height: 90%;
+  width: 80%;
+  margin-left: 9%;
+  margin-top: 3%;
+  background-image: url(resourses/maps/ancient_img.jpeg);
+  background-size: 100% 100%;
+  background-position: center;
+  position: absolute;
+  opacity: 0;
+}
+.map_znuk_anc{
+  margin-left: 5px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+  border-bottom: 2px solid rgba(178, 178, 178, 1);
+  background-image: url(https://www.csgonades.com/_next/image?url=%2Fmapicons%2Fancient.png&w=3840&q=100);
+}
+.map_znuk_smoke{
+  margin-top: 52px;
+  margin-left: 5px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-size: 50px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+  border-bottom: 2px solid rgba(178, 178, 178, 1);
+  background-image: url(resourses/smoke_logo_info.png);
+}
+.map_znuk_moly{
+  margin-top: 104px;
+  margin-left: 5px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+  border-bottom: 2px solid rgba(178, 178, 178, 1);
+  background-image: url(resourses/moly_logo_info.png);
+}
+.map_znuk_flesh{
+  margin-top: 156px;
+  margin-left: 5px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+  border-bottom: 2px solid rgba(178, 178, 178, 1);
+  background-image: url(resourses/flesh_logo_info.png);
+}
+.map_znuk_nade{
+  margin-top: 208px;
+  margin-left: 5px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+  background-image: url(resourses/nade_logo_info.png);
+}
+
+.option_nades{
+  position: absolute;
+  border-radius: 5px;
+  border: 2px solid rgba(178, 178, 178, 1);
+  margin-top: 35px;
+  margin-left: 20px;
+  width: 60px;
+  height: 200px;
+  opacity: 0;
+}
+#WTCN_text{
+  font-size: 27px;
+}
+.content_text{
+  position: absolute;
+  width: 80%;
+  margin-top: 80px;
+  margin-left: 40px;
+  font-size: 24px
+}
+.tick_bar{
+  border: 2px solid rgba(178, 178, 178, 1);
+  position: absolute;
+  width: 60px;
+  height: 155px;
+  margin-top: 305px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+#tick{
+  margin-top: 3px;
+  text-align: center;
+  font-size: 18px;
+  font-family: monospace;
+}
+.info_nade{
+  margin-top: 270px;
+  background-color: rgba(180, 202, 201, 1);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+}
+.ramka{
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 6px;
+  margin-left: 30px;
+  width: 70%;
+  height: 80%;
+}
+.smoke_info{
+  display: flex;
+  width: 240px;
+}
+.smoke_info_img{
+  border: 1px solid white;
+  margin-top: 4px;
+  margin-left: 20px;
+  width: 60px;
+  height: 40px;
+  background-image: url(resourses/smoke_logo_info.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.flesh_info{
+  width: 240px;
+  display: flex;
+}
+.flesh_info_img{
+  margin-top: 4px;
+  margin-left: 20px;
+  width: 45px;
+  height: 45px;
+  background-image: url(resourses/flesh_logo_info.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.moly_info{
+  display: flex;
+  width: 240px;
+}
+.moly_info_img{
+  margin-top: 9px;
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  background-image: url(resourses/moly_logo_info.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nade_info{
+  width: 240px;
+  display: flex;
+}
+.nade_info_img{
+  margin-top: 4px;
+  margin-left: 20px;
+  width: 45px;
+  height: 45px;
+  background-image: url(resourses/nade_logo_info.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.community_info{
+  display: flex;
+  width: 240px;
+}
+.community_info_img{
+  border: 1px solid white;
+  margin-top: 9px;
+  margin-left: 20px;
+  width: 40px;
+  height: 35px;
+  background-image: url(resourses/community_logo_info.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img_big_logo{
+  position: relative;
+  top: -13px;
+  width: 310px;
+  height: 280px;
+  margin-left: 40%;
+  background-image: url(resourses/pacani_big.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.left_side_bar{
+  background-color: rgba(240, 240, 240, 1);
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 85px;
+  margin-left: 15px;
+  width: 250px;
+  height: 460px;
+}
+
+.left_side_bar_2{
+  position: absolute;
+  background-color: rgba(240, 240, 240, 1);
+  border-radius: 5px;
+  margin-top: 565px;
+  margin-left: 15px;
+  width: 250px;
+  height: 150px;
+}
+.left_side_bar_text{
+  position: relative;
+  margin-top: 17px;
+  margin-left: 20px;
+  width: 80%;
+  text-align: center;
+}
+.left_side_bar_text_general{
+  height: 420px;
+  display: grid;
+  align-items: stretch;
+  top: 0;
+  font-size: 24px;
+}
+.left_side_bar_text_general_blocks{
+  margin-top: 1px;
+}
+.left_side_bar_text_general_blocks_2{
+  margin-top: 25px;
+  text-align: center;
+  font-size: 28px;
+}
+#text_maps{
+  font-size: 32px;
+  cursor: default;
+}
+.maps_content{
+  display: grid;
+  grid-row-gap: 25px;
+  margin: 20px;
+}
+
+
+/* animation button maps */
+#mir{
+  color: rgba(135, 135, 135, 1);
+}
+#mir:hover{
+  color: black;
+  transition: 0.2s;
+}
+
+.mir_img{
+  margin-top: 1px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border: 1px solid black;
+  border-radius: 40px;
+  background-image: url(https://www.csgonades.com/_next/image?url=%2Fmapicons%2Fmirage.png&w=3840&q=100);
+  background-position: center;
+  background-size: cover;
+}
+#inf{
+  color: rgba(135, 135, 135, 1);
+}
+#inf:hover{
+  color: black;
+  transition: 0.2s;
+}
+.inf_img{
+  margin-top: 1px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border: 1px solid black;
+  border-radius: 40px;
+  background-image: url(https://www.csgonades.com/_next/image?url=%2Fmapicons%2Finferno.png&w=3840&q=100);
+  background-position: center;
+  background-size: cover;
+}
+#over{
+  color: rgba(135, 135, 135, 1);
+}
+#over:hover{
+  color: black;
+  transition: 0.2s;
+}
+.over_img{
+  margin-top: 1px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border: 1px solid black;
+  border-radius: 40px;
+  background-image: url(https://www.csgonades.com/_next/image?url=%2Fmapicons%2Foverpass.png&w=3840&q=100);
+  background-position: center;
+  background-size: cover;
+}
+#dust{
+  color: rgba(135, 135, 135, 1);
+}
+#dust:hover{
+  color: black;
+  transition: 0.2s;
+}
+.dust_img{
+  margin-top: 1px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border: 1px solid black;
+  border-radius: 40px;
+  background-image: url(https://www.csgonades.com/_next/image?url=%2Fmapicons%2Fdust2.png&w=3840&q=100);
+  background-position: center;
+  background-size: cover;
+}
+#vert{
+  color: rgba(135, 135, 135, 1);
+}
+#vert:hover{
+  color: black;
+  transition: 0.2s;
+}
+.vert_img{
+  margin-top: 1px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border: 1px solid black;
+  border-radius: 40px;
+  background-image: url(https://www.csgonades.com/_next/image?url=%2Fmapicons%2Fvertigo.png&w=3840&q=100);
+  background-position: center;
+  background-size: cover;
+}
+#nuke{
+  color: rgba(135, 135, 135, 1);
+}
+#nuke:hover{
+  color: black;
+  transition: 0.2s;
+}
+.nuke_img{
+  margin-top: 1px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border: 1px solid black;
+  border-radius: 40px;
+  background-image: url(https://www.csgonades.com/_next/image?url=%2Fmapicons%2Fnuke.png&w=3840&q=100);
+  background-position: center;
+  background-size: cover;
+}
+#anc{
+  color: rgba(135, 135, 135, 1);
+}
+#anc:hover{
+  color: black;
+  transition: 0.2s;
+}
+.anc_img{
+  margin-top: 1px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border: 1px solid black;
+  border-radius: 40px;
+  background-image: url(https://www.csgonades.com/_next/image?url=%2Fmapicons%2Fancient.png&w=3840&q=100);
+  background-position: center;
+  background-size: cover;
+}
+
+.dropDown{
+  transition: 0.2s;
+  height: 330px;
+}
+
+.map_img{
+  position: absolute;
+  border: 1px solid red;
+  top: 100px;
+  background-image: url(mirage_znuk.png);
+  width: 50px;
+  height: 50px;
+}
